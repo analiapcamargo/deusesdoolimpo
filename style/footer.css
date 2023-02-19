@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bege:rgba(255,248,222,255);
+    --bege-translucido:rgba(255, 248, 222, 0.534);
+    --marrom-titulo:rgb(67, 19, 11);
+    --azul-claro:rgb(162, 206, 211);
+    --branco:rgb(255,255,255);
+    --azul-escuro:rgb(1, 87, 130);
+    --marrom-escuro:rgb(48, 9, 2);
+    --preto:rgb(0, 0, 0);
+    --azul-medio:rgb(109, 195, 204);
+
+}
+
+.container{
+    padding-left:6%;
+    padding-right:6%;
+}
+
+.footer-geral{
+    font-family: 'Satisfy', cursive;
+    font-size:1.3rem;
+    background-image:radial-gradient(var(--azul-claro) 50%,  var(--bege) 90%) ;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:6% 0;
+
+
+}
+
+.footer-name{
+    width:40%;
+}
+
+.github{
+    width:3rem;
+}
+
+.linkedin{
+    width:3rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    .footer-nome{
+        width:55%;
+        display:flex;
+        justify-content: center;
+        font-size:1.8rem;
+        
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+   .footer-geral{
+    padding:2%;
+    justify-content: space-between;
+   }
+
+    .footer-nome{
+        font-size: 2.5rem;
+        width:75%;
+    }
+
+    .github{
+        width:5rem;
+
+    }
+    
+    .linkedin{
+        width:5rem;
+
+    }
+
+}
