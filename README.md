@@ -8,8 +8,6 @@
 * Flexbox
 * Animation CSS (slidein e shake)
 
-
-
 ## Preview
 
 ![Preview](/assets/preview1.png "Demonstração")
