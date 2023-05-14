@@ -1,14 +1,13 @@
-# Projeto Deuses do Olimpo
+# Project Deuses do Olimpo
 
 
-## HTML e CSS básicos
+## Basic HTML and CSS 
 
-* Think mobile first
-* Responsivo para dispositivos móveis
+* Think Mobile First
+* Responsive to small screens
 * Flexbox
-* Animação CSS (slidein e shake)
-* Menu com âncora
-* Navegação entre páginas
+* Animation CSS (slidein e shake)
+
 
 
 ## Preview
